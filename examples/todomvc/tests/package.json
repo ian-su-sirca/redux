@@ -1,0 +1,19 @@
+{
+  "name": "test-setup",
+  "version": "1.0.0",
+  "description": "E2E tests for TodoMVC",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch -c nightwatch.conf.js --env chrome"
+  },
+  "author": "RoZetta Technology",
+  "license": "ISC",
+  "devDependencies": {
+    "browserstack-automate": "^1.0.2",
+    "chromedriver": "^2.32.2",
+    "geckodriver": "^1.8.1",
+    "nightwatch": "^0.9.16",
+    "nightwatch-custom-commands-assertions": "^1.1.0",
+    "selenium-server-standalone-jar": "^3.5.3",
+    "selenium-standalone": "^6.9.0"
+  }
+}
